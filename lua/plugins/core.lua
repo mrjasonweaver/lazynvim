@@ -15,7 +15,6 @@ return {
         "shfmt",
         "flake8",
         "prettierd",
-        "ktfmt",
         "rust_analyzer",
       },
     },
