@@ -4,13 +4,6 @@ return {
     opts = {
       colorscheme = "catppuccin",
     },
-    {
-      "neovim/nvim-lspconfig",
-      config = function()
-        local lspconfig = require("lspconfig")
-        lspconfig.sourcekit.setup({})
-      end,
-    },
   },
   -- add any tools you want to have installed below
   {
