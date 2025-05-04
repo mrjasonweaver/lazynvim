@@ -5,20 +5,6 @@ return {
       colorscheme = "catppuccin",
     },
   },
-  -- add any tools you want to have installed below
-  {
-    "williamboman/mason.nvim",
-    opts = {
-      ensure_installed = {
-        "stylua",
-        "shellcheck",
-        "shfmt",
-        "flake8",
-        "prettierd",
-        "rust_analyzer",
-      },
-    },
-  },
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
@@ -39,6 +25,20 @@ return {
         "typescript",
         "vim",
         "yaml",
+      },
+    },
+  },
+  -- add any tools you want to have installed below
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "stylua",
+        "shellcheck",
+        "shfmt",
+        "flake8",
+        "prettierd",
+        "rust_analyzer",
       },
     },
   },
