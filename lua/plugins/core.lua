@@ -37,7 +37,7 @@ return {
         "shellcheck",
         "shfmt",
         "flake8",
-        "prettierd",
+        "prettier",
         "rust_analyzer",
       },
     },
